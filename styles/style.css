@@ -83,11 +83,12 @@ p {
 .signup-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 8px;
     padding: 8px 24px;
     width: fit-content;
+    flex-shrink: 0;
 }
 
 #hero-img {
@@ -164,4 +165,27 @@ p {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 100px 200px;
+    padding: 5% 10%;
+    gap: 16px;
+}
+
+.call-to-action-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
 }
