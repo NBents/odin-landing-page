@@ -143,3 +143,25 @@ p {
     font-size: 18px;
     font-weight: 500;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 200px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: center;
+}
+
+.testimonial-author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
