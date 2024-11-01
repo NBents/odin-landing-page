@@ -54,7 +54,6 @@ a {
 
 .hero-main {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 36px;
     margin: 200px 15%;
@@ -98,4 +97,49 @@ p {
 #hero-img  img{
     width: 450px;
     height: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+    gap: 48px;
+}
+
+.main-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+    padding: 5px;
+}
+
+.card .text {
+    font-size: 18px;
+    font-weight: 500;
 }
